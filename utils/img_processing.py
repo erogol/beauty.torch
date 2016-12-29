@@ -1,11 +1,6 @@
 import dlib
 import cv2
-import random
-import math
 import numpy as np
-from skimage import io
-from face_dlib import AlignDlib
-from scipy.spatial.distance import euclidean
 
 def scale_img(img, shortest=None, largest=None):
     if shortest is not None:

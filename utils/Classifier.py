@@ -5,8 +5,6 @@ import lutorpy as lua
 import numpy as np
 import os
 import sys
-import pandas as pd
-import cPickle
 import time
 
 lua.require('nn')
@@ -16,7 +14,6 @@ lua.eval("torch.setdefaulttensortype('torch.FloatTensor')")
 
 import logging
 from skimage import io, transform
-from matplotlib import pylab as plt
 
 def thumbnail(img, size=150):
     """
