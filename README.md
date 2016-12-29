@@ -1,16 +1,17 @@
 <h1>beauty.torch</h1>
 
 This project serves a deep learning model scoring selfie images between 1 to 10 based on image
-and face attributes. It is developed based on [resnet.torch] (https://github.com/erogol/resnet.torch).
+and face attributes. You can learn the technical details of this project from this [blog post](http://www.erogol.com/selfai-predicting-facial-beauty-selfies/). Use [resnet.torch] (https://github.com/erogol/resnet.torch), if you plan to follow all the training pipeline described on the post. 
 
-This repository also includes some additional codes to preprocess images
-before serving into the model. It basically follows three important steps.
+Given image is processed as follows;  
 
 1. Detect face.
 2. Find landmarks
 3. Rotate image to align face.
 4. Fill gaps with constant pixel value.
 5. Send into scoring model.
+
+For an example use check notebook ```ExampleUse.ipynb```  
 
 <h2>Requirements</h2>
 Main requirement is [Torch](http://torch.ch/docs/getting-started.html) computing framework.  
