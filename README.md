@@ -13,7 +13,7 @@ Given image is processed as follows;
 
 For an example use check notebook ```ExampleUse.ipynb```  
 
-<h2>Requirements</h2>
+## Requirements
 Main requirement is [Torch](http://torch.ch/docs/getting-started.html) computing framework.  
 
 <h4>Models</h4>
