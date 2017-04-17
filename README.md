@@ -34,7 +34,7 @@ cv2 ```sudo pip install cv2``` - OpenCV python module
 
 <h2>Examples</h2>
 Attention of the trained model.  
-![alt tag](https://raw.githubusercontent.com/erogol/beauty.torch/master/exps/pitt.png)
+![alt test](https://raw.githubusercontent.com/erogol/beauty.torch/master/exps/pitt.png "Model attention")
 
 Sorting A. Lima images from Google Search.  
 ![alt tag](https://raw.githubusercontent.com/erogol/beauty.torch/master/exps/out.gif)
