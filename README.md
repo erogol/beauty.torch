@@ -13,6 +13,9 @@ Given image is processed as follows;
 
 For an example use check notebook ```ExampleUse.ipynb```  
 
+## Dataset & Converged Final Model
+* Contact me from erengolge at gmail.com
+
 ## Requirements
 Main requirement is [Torch](http://torch.ch/docs/getting-started.html) computing framework.  
 
